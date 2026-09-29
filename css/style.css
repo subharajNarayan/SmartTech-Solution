@@ -2412,9 +2412,10 @@ html, body {
 .idea-impact-section {
   /* background-color: #0b0c10; */
   /* Dark background matching the theme */
-  padding: 120px 90px;
+  padding: 60px 60px;
   color: #ffffff;
   overflow: hidden;
+  padding-bottom: 0px;
 }
 
 .idea-impact-section .content-col {
