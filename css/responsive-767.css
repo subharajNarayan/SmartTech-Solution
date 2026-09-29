@@ -107,7 +107,7 @@
         rgba(255, 255, 255, 0.7) 10%,
         /* #f15d6d 70%,
         #f15d6d 100% */
-        );
+      );
     -webkit-backdrop-filter: blur(20px) saturate(200%);
     backdrop-filter: blur(20px) saturate(200%);
 
@@ -830,6 +830,7 @@
 
 
 @media screen and (max-width: 767px) {
+
   /* Hide standard desktop services section */
   .services-node-section {
     display: none !important;
@@ -870,7 +871,8 @@
   }
 
   .services-node-section_mobile .how-paragraph_mobile br {
-    display: none; /* Ignore fixed br tags on small screens */
+    display: none;
+    /* Ignore fixed br tags on small screens */
   }
 
   /* Mobile Container Stack */
@@ -883,9 +885,10 @@
     margin-top: 35px;
   }
 
-  .card-left-node_mobile{
+  .card-left-node_mobile {
     margin-top: 35px;
   }
+
   /* Center Badge Node */
   .services-node-section_mobile .center-service-node_mobile {
     position: relative;
@@ -994,5 +997,22 @@
     line-height: 1.55;
     color: #94a3b8;
     margin: 0;
+  }
+
+  .idea-impact-section {
+    padding: 35px 0px;
+  }
+
+  .idea-impact-desc {
+    margin-bottom: 4px;
+  }
+
+  .btn-learn-more {
+
+    padding: 8px 9px;
+  }
+
+  .image-col {
+    margin-top: 32px;
   }
 }

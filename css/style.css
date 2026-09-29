@@ -2408,23 +2408,15 @@ html, body {
 
 
 
-/* Idea to Impact Section Styles */
 .idea-impact-section {
-  /* background-color: #0b0c10; */
-  /* Dark background matching the theme */
-  padding: 60px 60px;
+  padding: 60px 120px;
   color: #ffffff;
   overflow: hidden;
-  padding-bottom: 0px;
-}
-
-.idea-impact-section .content-col {
-  padding-right: 40px;
+  /* padding-bottom: 0px; */
 }
 
 .idea-impact-title {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.8rem;
+  font-size: 64px;
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 24px;
@@ -2433,72 +2425,28 @@ html, body {
 
 .text-highlight-blue {
   color: #4c84ff;
-  /* Highlighted light blue color */
 }
 
 .idea-impact-desc {
   font-weight: 400;
   color: #FFF;
   margin-bottom: 32px;
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 24px;
+  line-height: 1.24;
 }
 
-/* Learn More Button */
 .btn-learn-more {
+  all: unset;
+  box-sizing: border-box;
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  background-color: #4c84ff;
-  color: #ffffff;
-  /* font-family: 'Inter', sans-serif; */
-  /* font-weight: 600; */
-  font-size: 12px;
-  letter-spacing: 0.5px;
-  padding: 12px 24px;
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-}
-
-.btn-learn-more:hover {
-  background-color: #3b6edc;
-  color: #ffffff;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 15px rgba(76, 132, 255, 0.3);
-}
-
-.btn-learn-more i {
-  font-size: 0.9rem;
-}
-
-/* Right Side Image/Graphic */
-.graphic-wrapper {
-  position: relative;
-  display: flex;
   justify-content: center;
-  align-items: center;
-}
+  gap: 4px;
+  padding: 16px 24px;
+  /* position: relative; */
+  /* flex: 0 0 auto; */
+  background-color: var(--brand-500) !important;
+  border-radius: 8px;
+  z-index: 999;
 
-.impact-graphic {
-  width: 100%;
-  max-width: 650px;
-  height: auto;
-  object-fit: contain;
-}
-
-/* Responsive Styles */
-@media (max-width: 991px) {
-  .idea-impact-section {
-    padding: 50px 20px;
-  }
-
-  .idea-impact-section .content-col {
-    padding-right: 0;
-    margin-bottom: 40px;
-  }
-
-  .idea-impact-title {
-    font-size: 2.2rem;
-  }
 }

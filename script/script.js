@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // 3. Pop in Learn More CTA Button
   ideaImpactTimeline.from(".idea-impact-section .btn-learn-more", {
     y: 20,
-    opacity: 0,
+    opacity: 1,
     scale: 0.95,
     duration: 0.5,
     ease: "back.out(1.5)",

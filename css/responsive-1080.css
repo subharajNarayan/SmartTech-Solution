@@ -437,52 +437,79 @@
   .ai-fits-section {
     padding: 30px;
   }
+
   .ai-fits-title {
-        font-size: 32px;
+    font-size: 32px;
   }
+
   .ai-fits-desc {
-        font-size: 15px;
-    }
-    .ai-fits-container {
+    font-size: 15px;
+  }
+
+  .ai-fits-container {
     gap: 50px;
-    }
-           .ai-step-desc {
-        font-size: 13px;
-    }
-    .faq-section {
-        padding: 30px;
-    }
-    .faq-main-title {
-        font-size: 32px;
-        margin-bottom: 40px;
-    }
-    .faq-side-desc {
-        font-size: 15px;
-    }
-    .faq-answer p {
-        font-size: 13px;
-    }
-    .talk-cta-section {
-        padding: 30px;
-    }
-    .talk-cta-card {
+  }
+
+  .ai-step-desc {
+    font-size: 13px;
+  }
+
+  .faq-section {
+    padding: 30px;
+  }
+
+  .faq-main-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+
+  .faq-side-desc {
+    font-size: 15px;
+  }
+
+  .faq-answer p {
+    font-size: 13px;
+  }
+
+  .talk-cta-section {
+    padding: 30px;
+  }
+
+  .talk-cta-card {
     padding: 30px 40px;
-    }
-        .talk-icon-wrapper {
-        width: 50px;
-        height: 50px;
-        font-size: 18px;
-    }
-    .talk-title {
-        font-size: 18px;
-    }
-        .talk-description {
-        font-size: 13px;
-        }
-            .talk-description br{
-              display: none;
-            }
-                .contact-item {
-        font-size: 13px;
-    }
+  }
+
+  .talk-icon-wrapper {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  .talk-title {
+    font-size: 18px;
+  }
+
+  .talk-description {
+    font-size: 13px;
+  }
+
+  .talk-description br {
+    display: none;
+  }
+
+  .contact-item {
+    font-size: 13px;
+  }
+
+  .idea-impact-section {
+    padding: 45px 30px;
+  }
+
+  .idea-impact-title {
+    font-size: 32px;
+  }
+
+  .btn-learn-more {
+    padding: 10px 12px;
+  }
 }
