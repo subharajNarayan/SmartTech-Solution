@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1440px) {
+  .homepage-anm .body-section {
+    padding: 30px 60px;
+  }
+
+  .homepage-anm .body-section .services .left-text .your-journey {
+    font-size: 46px;
+    line-height: 1.8;
+
+  }
+
+  .homepage-anm .body-section .services .left-text .from-concept-to {
+    font-size: 46px;
+    line-height: 1.3;
+  }
+
+  .homepage-anm .body-section .services .left-text .engineering-trusted-solutions {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .services .left-text .engineering-trusted-solutions br {
+    display: none;
+  }
+
+  .phases {
+    padding: 40px 50px;
+  }
+
+  .phases-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 90px;
+  }
+
+  .step-number {
+    font-size: 30px;
+    top: -15px;
+  }
+
+  .icon-wrapper img {
+    width: 100px;
+  }
+
+  .card-content h3 {
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 600;
+  }
+
+  .phases-container {
+    padding: 5px 90px;
+  }
+
+  .phase-card {
+    width: 430px;
+    padding: 30px;
+  }
+
+  .card-content p {
+    line-height: 1.3;
+    font-size: 16px;
+  }
+
+  .icon-wrapper {
+    margin-bottom: 0px;
+  }
+
+  .line-1-2 {
+    top: 130px;
+    left: 520px;
+  }
+
+  .line-2-3 {
+    top: 20.6%;
+    right: 245px;
+  }
+
+  .line-3-4 {
+    top: 37%;
+    left: 255px;
+  }
+
+  .line-4-5 {
+    left: 520px;
+  }
+
+  .line-5-6 {
+    top: 72%;
+    right: 245px;
+  }
+
+
+  .line-1-2 img {
+    width: 100%;
+  }
+
+  .line-2-3 img {
+    height: 295px;
+  }
+
+  .line-3-4 img {
+    height: 295px;
+  }
+
+  .line-4-5 img {
+    width: 100%;
+  }
+
+  .line-5-6 img {
+    height: 295px;
+  }
+
+  .phase-3 {
+    margin-top: 135px;
+    margin-left: 270px;
+  }
+
+  .phase-4 {
+    margin-top: 135px;
+  }
+
+  .phase-6 {
+    margin-top: 125px;
+    margin-left: 270px;
+}
+}

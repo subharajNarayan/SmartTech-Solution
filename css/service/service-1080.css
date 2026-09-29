@@ -1,0 +1,66 @@
+@media only screen and (max-width: 1080px) {
+  .homepage-anm .body-section {
+    padding: 30px;
+  }
+
+  .homepage-anm .body-section .services .left-text .your-journey {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .services .left-text .from-concept-to {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .services {
+    padding: 30px 0;
+  }
+
+
+  .phases-container {
+    padding: 5px 40px;
+  }
+
+  .phase-card {
+    width: 400px;
+    padding: 25px;
+  }
+
+  .phases {
+    padding: 30px 0;
+  }
+
+  .phase-2 {
+    margin-right: 0px;
+  }
+
+  .phase-4 {
+    margin-top: 155px;
+  }
+
+  .phase-5 {
+    margin-right: 0px;
+  }
+
+
+  .line-1-2 {
+    top: 130px;
+    left: 440px;
+  }
+
+  .line-2-3 {
+    top: 19.5%;
+    right: 215px;
+  }
+
+  .line-3-4 {
+    /* top: 38%; */
+    left: 205px;
+  }
+
+  .line-4-5 {
+    left: 440px;
+  }
+  .line-5-6 {
+    right: 215px;
+  }
+}

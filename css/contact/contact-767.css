@@ -1,0 +1,84 @@
+@media only screen and (max-width: 767px) {
+  .homepage-anm .body-section {
+    padding: 5px;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .frame_1 .engineering-your-vision {
+    font-size: 24px !important;
+    line-height: 2;
+    margin-top: 7px;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .frame_1 .together {
+    font-size: 24px !important;
+    line-height: 2;
+    margin-top: 7px;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .your-vision-our {
+    font-size: 14px !important;
+    line-height: 2;
+  }
+
+  .homepage-anm .body-section {
+    padding: 30px 10px !important;
+  }
+
+  .homepage-anm .body-section .contact-us .right-image {
+    padding: 0;
+  }
+
+  .homepage-anm .body-section .contact-us .right-image .contact-img img {
+    width: 100% !important;
+  }
+
+  .homepage-anm .body-section .contact-form .contact-header .lets-scale-together-container {
+    font-size: 24px !important;
+  }
+
+  .homepage-anm .body-section .contact-form .reach-out .reach-out-to {
+    font-size: 14px !important;
+  }
+
+  .homepage-anm .body-section .contact-form .contact-info_button {
+    min-width: 200px !important;
+    padding: 8px 14px !important;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group label {
+    font-size: 14px !important;
+  }
+
+  .homepage-anm .body-section .contact-form {
+    padding-top: 50px;
+    padding: 20px 0px !important;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid {
+    gap: 20px 15px !important;
+    grid-template-columns: 1fr !important;
+    gap: 24px;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group input {
+    font-size: 12px !important;
+  }
+
+  .homepage-anm .body-section .conversational-form {
+    padding: 20px 0 0px !important;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #from_name::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #company_name::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #role::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #goal::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #reply_to::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #contact_number::placeholder,
+  .homepage-anm .body-section .conversational-form .form-grid .field-group #message::placeholder {
+    font-size: 12.4px;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group {
+    gap: 3px !important;
+  }
+}

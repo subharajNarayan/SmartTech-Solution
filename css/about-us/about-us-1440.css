@@ -1,0 +1,142 @@
+@media only screen and (max-width: 1440px) {
+  .homepage-anm .body-section .about-us {
+    padding: 60px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .about-us_ {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .smart-digital-solutions {
+    font-size: 46px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .since {
+    font-size: 46px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .about-paragraph {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .button .button2 {
+    letter-spacing: 1px;
+
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .button {
+    width: 32%;
+    padding: 12px 24px;
+    margin-top: 40px;
+  }
+
+  /* ==========================================
+   VISION, MISSION & GOAL SECTION
+   ========================================== */
+  .vmg-section {
+    padding: 60px;
+  }
+
+  /* SVG Arc Line */
+  .vmg-arc-svg {
+    top: -5px;
+    max-width: 1110px;
+    height: 230px;
+  }
+
+  /* Container */
+  .vmg-container {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .vmg-card.vmg-vision {
+    margin-top: 12px;
+  }
+
+  .vmg-card.vmg-goal {
+    margin-top: 12px;
+  }
+
+  /* Vertical Staggering to match Figma */
+  .vmg-card.vmg-mission {
+    transform: translateY(-20px);
+  }
+
+  .vmg-card.vmg-vision,
+  .vmg-card.vmg-goal {
+    transform: translateY(110px);
+  }
+
+  /* Icon Circle Styling matching Figma */
+  .vmg-icon-wrapper {
+    width: 80px;
+    height: 80px;
+  }
+
+  .vmg-icon-wrapper i {
+    font-size: 32px;
+  }
+
+  /* Titles */
+  .vmg-title {
+    width: 100%;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #4f80e2;
+    text-align: center;
+    margin-bottom: 12px;
+  }
+
+  /* Descriptions */
+  .vmg-desc {
+    width: 100%;
+    max-width: 280px;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* Bottom Banner */
+  .vmg-bottom-banner {
+    width: 100%;
+    margin-top: 140px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+  }
+
+  .vmg-bottom-banner img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: rotate(180deg);
+  }
+
+  .our-team-section {
+    padding: 60px;
+  }
+
+  .member-name {
+    font-size: 16px;
+  }
+
+  .member-role {
+    font-size: 11px;
+  }
+
+  .card-img-wrap {
+    height: 250px;
+  }
+}

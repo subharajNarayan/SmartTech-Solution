@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Tech Solution Pvt. Ltd. | Contact Us</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 & Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/contact/contact.css" />
+    <link rel="stylesheet" href="css/contact/contact-767.css" />
+    <link rel="stylesheet" href="css/contact/contact-1080.css" />
+    <link rel="stylesheet" href="css/contact/contact-1440.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive-1080.css" />
+    <link rel="stylesheet" href="css/responsive-767.css" />
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <!-- Place inside <head> -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init({
+          publicKey: "LjSdTj6OT8GXIELQ_", // Replace with your actual Public Key
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <main class="homepage-anm">
+      <header class="nav-bar">
+        <a href="index.html" class="logo-link">
+          <img
+            class="image-1"
+            src="img/smart_logo.png"
+            alt="Smart Tech Solutions Logo"
+          />
+        </a>
+
+        <!-- <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle Navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button> -->
+
+        <nav class="frame-1" id="navMenu">
+          <div class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </div>
+
+          <!-- Mobile Button (Inside Drawer) -->
+          <a href="contact.html" class="button-2-mobile page-transition-btn">
+            <button class="button">GET IN TOUCH</button>
+          </a>
+        </nav>
+
+        <!-- Desktop Button (Outside Nav Drawer) -->
+        <a href="contact.html" class="button-2 page-transition-btn">
+          <button class="button">GET IN TOUCH</button>
+        </a>
+      </header>
+
+      <!--Mobile Device Button Floating Hamburger Button (Middle Right) -->
+      <!-- Floating Hamburger Button (Middle Right with Outer Curves & Glass Effect) -->
+      <button
+        class="floating-nav-trigger"
+        id="floatingNavToggle"
+        aria-label="Open Navigation"
+      >
+        <div class="floating-btn-inner">
+          <i class="fa-solid fa-bars hamburger-icon"></i>
+          <i class="fa-solid fa-xmark close-icon"></i>
+        </div>
+      </button>
+
+      <!--Mobile Device Nav-bar  Animated Fullscreen Navigation Drawer -->
+      <header class="animated-nav-drawer" id="animatedNavDrawer">
+        <div class="drawer-backdrop"></div>
+        <div class="drawer-content">
+          <div class="drawer-header">
+            <img
+              src="img/smart_logo.png"
+              alt="Smart Tech Logo"
+              class="drawer-logo"
+            />
+            <button
+              class="drawer-close-btn"
+              id="drawerCloseBtn"
+              aria-label="Close Navigation"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          <ul class="drawer-links">
+            <li class="drawer-link-item">
+              <a href="index.html" class="drawer-link">Home</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="service.html" class="drawer-link">Services</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="portfolio.html" class="drawer-link">Portfolio</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="about-us.html" class="drawer-link">About Us</a>
+            </li>
+          </ul>
+
+          <div class="drawer-cta-wrapper">
+            <a href="contact.html" class="button-2 page-transition-btn">
+              <button class="button">GET IN TOUCH</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Body Section -->
+      <section class="body-section">
+        <section class="contact-us">
+          <div class="row align-items-center">
+            <div class="col-lg-6 left-text">
+              <div class="frame_1">
+                <div class="your-vision-our">Your vision, Our team.</div>
+                <b class="engineering-your-vision">Engineering Your Vision</b>
+                <b class="together">Together</b>
+              </div>
+            </div>
+            <div class="col-lg-6 right-image">
+              <div class="contact-img">
+                <img src="img/contact.png" alt="Contact Illustration" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Contact Form Header -->
+        <section class="contact-form">
+          <div class="contact-header">
+            <h2 class="lets-scale-together-container">
+              Lets <span class="scale">Scale</span> Together
+            </h2>
+          </div>
+
+          <div class="reach-out">
+            <p class="reach-out-to">
+              Reach out to us through email or fill out the form below
+            </p>
+          </div>
+
+          <a href="mailto:info@smarttech.com.np" class="contact-info_button">
+            <span class="button2">info@smarttech.com.np</span>
+          </a>
+        </section>
+
+        <!-- Conversational Form -->
+        <form id="contact-form" class="conversational-form">
+          <div class="form-grid">
+            <div class="field-group">
+              <label for="from_name">Hi! My name is</label>
+              <input
+                type="text"
+                id="from_name"
+                name="from_name"
+                placeholder="Name*"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="company_name">and I work at</label>
+              <input
+                type="text"
+                id="company_name"
+                name="company_name"
+                placeholder="Company*"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="role">Position as</label>
+              <input
+                type="text"
+                id="role"
+                name="role"
+                placeholder="Role*"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="goal">Our goal</label>
+              <input
+                type="text"
+                id="goal"
+                name="goal"
+                placeholder="Collaborate as team to meet our goal*"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="reply_to">Email address</label>
+              <input
+                type="email"
+                id="reply_to"
+                name="reply_to"
+                placeholder="Email Address*"
+                required
+              />
+            </div>
+
+            <div class="field-group">
+              <label for="contact_number">Contact number</label>
+              <input
+                type="tel"
+                id="contact_number"
+                name="contact_number"
+                placeholder="Contact Number*"
+                required
+              />
+            </div>
+
+            <div class="field-group full-width">
+              <label for="message">Additionally, I'm sharing more here</label>
+              <input
+                type="text"
+                id="message"
+                name="message"
+                placeholder="Message*"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" id="submit-btn" class="submit-btn">
+              <span class="btn-text">SUBMIT &rarr;</span>
+            </button>
+          </div>
+
+          <div id="form-status" class="form-status"></div>
+        </form>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-top">
+            <div class="footer-col brand-col">
+              <div class="footer-logo">
+                <img src="img/smart_logo.png" alt="Smart Tech Solution" />
+              </div>
+              <p class="brand-desc">
+                Leading provider of engineering <br />
+                software solutions in Nepal.
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Facebook">
+                  <img src="img/facebook logo.svg" alt="Facebook" />
+                </a>
+                <a href="#" class="social-icon" aria-label="LinkedIn">
+                  <img src="img/linkedin logo.svg" alt="LinkedIn" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/service.html">Services</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Solutions</h3>
+              <ul class="footer-links">
+                <li><a href="#">CAD Software</a></li>
+                <li><a href="#">GIS Application</a></li>
+                <li><a href="#">Enterprise Application</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Contact Information</h3>
+              <address class="contact-info">
+                <p>Bhakti Thapa Sadak,<br />Kathmandu, Nepal</p>
+                <p><a href="tel:015245027">01-5245027</a></p>
+                <p>
+                  <a href="mailto:info@smarttech.com.np"
+                    >info@smarttech.com.np</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>
+              &copy; 2026 Smart Tech Solution Pvt. Ltd. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- JS Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/contactscript.js"></script>
+    <script src="script/formScript.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,376 @@
+:root {
+  --warm-gray-900: #121212;
+  --brand-500: #007bff;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #ffffff;
+}
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+/* Hero Section */
+.homepage-anm .body-section .about-us {
+  padding: 60px 120px;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.homepage-anm .body-section .about-us .left-text .about-us_ {
+  width: 100%;
+  position: relative;
+  font-size: 24px;
+  line-height: 1.4;
+  color: #fff;
+  text-align: left;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .smart-digital-solutions {
+  font-size: 64px;
+  color: #fff;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .since {
+  font-size: 64px;
+  font-weight: 600;
+  color: var(--brand-500);
+  line-height: 1.4;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .about-paragraph {
+  font-size: 24px;
+  line-height: 1.4;
+  color: #fff;
+  text-align: left;
+  padding-top: 18px;
+}
+
+
+
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .button {
+  position: relative;
+  border-radius: 8px;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  gap: 4px;
+  text-align: left;
+  font-size: 14px;
+  color: #fff;
+  font-family: Poppins;
+  margin-top: 40px;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .button .button2 {
+  position: relative;
+  letter-spacing: 2px;
+  line-height: 100%;
+  font-weight: 500;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .button .arrow-right {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+
+.homepage-anm .body-section .about-us .left-text .frame_1 .button .arrow-right .vuesaxoutlinearrow-right-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  left: 0%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.homepage-anm .body-section .about-us .right-image .about-img img {
+  width: 100%;
+  height: auto;
+}
+
+.homepage-anm .body-section .about-us .right-image .about-img {
+  text-align: center;
+}
+
+/* ==========================================
+   VISION, MISSION & GOAL SECTION (1920px)
+   ========================================== */
+.vmg-section {
+  position: relative;
+  width: 100%;
+  padding: 60px 120px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: #08090b; */
+}
+
+/* SVG Arc Line for 1920px Width */
+.vmg-arc-svg {
+  position: absolute;
+  top: -45px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1820px;
+  height: 425px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Container */
+.vmg-container {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* max-width: 1580px; */
+  /* Aligns with 1920px grid margin */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 40px; */
+}
+
+/* Individual Cards */
+.vmg-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* width: 300px; */
+}
+
+.vmg-card.vmg-vision {
+  margin-top: 105px;
+}
+
+.vmg-card.vmg-goal {
+  margin-top: 105px;
+}
+
+/* Vertical Staggering */
+.vmg-card.vmg-mission {
+  transform: translateY(-20px);
+}
+
+.vmg-card.vmg-vision,
+.vmg-card.vmg-goal {
+  transform: translateY(140px);
+  /* Pushed down further for wider arc */
+}
+
+/* Icon Circle Styling (Figma Proportions at 1920px) */
+.vmg-icon-wrapper {
+  width: 140px;
+  /* Larger circles */
+  height: 140px;
+  border-radius: 50%;
+  border: 2px solid rgba(59, 130, 246, 0.45);
+  background: #090c10;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.8), inset 0 0 20px rgba(59, 130, 246, 0.12);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.vmg-icon-wrapper i {
+  font-size: 52px;
+  /* Prominent icons */
+  color: #ffffff;
+}
+
+/* Titles */
+.vmg-title {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+  color: #4f80e2;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Descriptions */
+.vmg-desc {
+  width: 100%;
+  max-width: 340px;
+  font-size: 32px;
+  line-height: 1.65;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(255, 255, 255, 0.88);
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* Bottom Banner */
+.vmg-bottom-banner {
+  width: 100%;
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+  padding-top: 60px;
+}
+
+.vmg-bottom-banner img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: rotate(180deg);
+}
+
+
+
+
+
+/* ==========================================
+   OUR TEAM SECTION (1920px Canvas Targeted)
+   ========================================== */
+.our-team-section {
+  padding: 60px 120px;
+  /* background-color: #08090b; */
+  overflow: hidden;
+  color: #ffffff;
+}
+
+.team-subheading {
+  font-size: 16px;
+  color: #a0a0a0;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 8px;
+}
+
+.team-heading {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 60px;
+}
+
+.highlight-blue {
+  color: #3b82f6;
+}
+
+/* Swiper Container Padding to allow scaled card overflow */
+.team-swiper {
+  width: 100%;
+  padding: 50px 0;
+}
+
+.team-swiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.4s ease, opacity 0.4s ease;
+  width: 280px; /* Base width for non-active cards */
+}
+
+/* Base Team Card Styling */
+.team-card {
+  width: 100%;
+  background: #11141a;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.card-img-wrap {
+  position: relative;
+  width: 100%;
+  height: 320px;
+  overflow: hidden;
+}
+
+.card-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Dark Overlay for Non-Active Cards */
+.card-img-wrap::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55); /* Dimming effect */
+  transition: opacity 0.4s ease;
+}
+
+.card-info {
+  padding: 20px;
+  text-align: left;
+  background-color: #0e1117;
+}
+
+.member-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 4px;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.4s ease;
+}
+
+.member-role {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.4s ease;
+}
+
+/* ==========================================
+   ACTIVE CENTER CARD HIGHLIGHTS
+   ========================================== */
+.team-swiper .swiper-slide-active .team-card {
+  transform: scale(1.22); /* Enlarge center card */
+  z-index: 10;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+}
+
+/* Remove dark overlay on active card */
+.team-swiper .swiper-slide-active .card-img-wrap::after {
+  opacity: 0;
+}
+
+/* Highlight text colors on active card */
+.team-swiper .swiper-slide-active .member-name {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.team-swiper .swiper-slide-active .member-role {
+  color: rgba(255, 255, 255, 0.85);
+}

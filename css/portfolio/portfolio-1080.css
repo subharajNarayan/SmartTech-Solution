@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1080px) {
+  .homepage-anm .body-section .portfolio {
+    padding: 30px;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .cad-software {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .frame_1 .button {
+    padding: 12px 20px;
+    margin-top: 28px;
+    width: 38%;
+  }
+
+  .featured-project {
+    padding: 30px;
+  }
+
+  .featured-title {
+    font-size: 38px;
+  }
+
+  .card-body {
+    padding: 16px;
+  }
+
+  .card-body h3 {
+    font-size: 20px;
+    margin-top: 8px;
+  }
+
+}

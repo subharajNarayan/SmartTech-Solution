@@ -1,0 +1,13 @@
+:root {
+  --brand-main: rgba(241, 93, 109, 1);
+  --light-theme-base-white: rgba(255, 255, 255, 1);
+  --brand-500: rgba(79, 128, 226, 1);
+  --cool-gray-500: rgba(173, 181, 189, 1);
+  --warm-gray-900: rgba(10, 10, 10, 1);
+  --heading-h5-semi-bold-130-font-family: "Poppins", Helvetica;
+  --heading-h5-semi-bold-130-font-weight: 600;
+  --heading-h5-semi-bold-130-font-size: 18px;
+  --heading-h5-semi-bold-130-letter-spacing: 0px;
+  --heading-h5-semi-bold-130-line-height: 129.99999523162842%;
+  --heading-h5-semi-bold-130-font-style: normal;
+}

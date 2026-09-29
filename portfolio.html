@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Tech Solution Pvt. Ltd. | Contact Us</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap 5 & Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <!-- Swiper CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/globals.css" />
+    <link rel="stylesheet" href="css/styleguide.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/responsive-1080.css" />
+    <link rel="stylesheet" href="css/responsive-767.css" />
+    <link rel="stylesheet" href="css/portfolio/portfolio.css" />
+    <link rel="stylesheet" href="css/portfolio/portfolio-1440.css" />
+    <link rel="stylesheet" href="css/portfolio/portfolio-1080.css" />
+    <link rel="stylesheet" href="css/portfolio/portfolio-767.css" />
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  </head>
+  <body>
+    <main class="homepage-anm">
+      <header class="nav-bar">
+        <a href="index.html" class="logo-link">
+          <img
+            class="image-1"
+            src="img/smart_logo.png"
+            alt="Smart Tech Solutions Logo"
+          />
+        </a>
+
+        <!-- <button
+          class="nav-toggle"
+          id="navToggle"
+          aria-label="Toggle Navigation"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button> -->
+
+        <nav class="frame-1" id="navMenu">
+          <div class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="service.html">Services</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </div>
+          <div class="nav-item">
+            <a class="nav-link" href="about-us.html">About Us</a>
+          </div>
+
+          <!-- Mobile Button (Inside Drawer) -->
+          <a href="contact.html" class="button-2-mobile page-transition-btn">
+            <button class="button">GET IN TOUCH</button>
+          </a>
+        </nav>
+
+        <!-- Desktop Button (Outside Nav Drawer) -->
+        <a href="contact.html" class="button-2 page-transition-btn">
+          <button class="button">GET IN TOUCH</button>
+        </a>
+      </header>
+
+      <!--Mobile Device Button Floating Hamburger Button (Middle Right) -->
+      <!-- Floating Hamburger Button (Middle Right with Outer Curves & Glass Effect) -->
+      <button
+        class="floating-nav-trigger"
+        id="floatingNavToggle"
+        aria-label="Open Navigation"
+      >
+        <div class="floating-btn-inner">
+          <i class="fa-solid fa-bars hamburger-icon"></i>
+          <i class="fa-solid fa-xmark close-icon"></i>
+        </div>
+      </button>
+
+      <!--Mobile Device Nav-bar  Animated Fullscreen Navigation Drawer -->
+      <header class="animated-nav-drawer" id="animatedNavDrawer">
+        <div class="drawer-backdrop"></div>
+        <div class="drawer-content">
+          <div class="drawer-header">
+            <img
+              src="img/smart_logo.png"
+              alt="Smart Tech Logo"
+              class="drawer-logo"
+            />
+            <button
+              class="drawer-close-btn"
+              id="drawerCloseBtn"
+              aria-label="Close Navigation"
+            >
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+
+          <ul class="drawer-links">
+            <li class="drawer-link-item">
+              <a href="index.html" class="drawer-link">Home</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="service.html" class="drawer-link">Services</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="portfolio.html" class="drawer-link">Portfolio</a>
+            </li>
+            <li class="drawer-link-item">
+              <a href="about-us.html" class="drawer-link">About Us</a>
+            </li>
+          </ul>
+
+          <div class="drawer-cta-wrapper">
+            <a href="contact.html" class="button-2 page-transition-btn">
+              <button class="button">GET IN TOUCH</button>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Body Section -->
+      <section class="body-section">
+        <section class="portfolio">
+          <div class="row align-items-center">
+            <div class="col-lg-6 left-text">
+              <div class="frame_1">
+                <b class="cad-software">
+                  <span class="cad">CAD</span>
+                  <span class="software"> Software</span>
+                </b>
+                <div class="we-build-and">
+                  We build and customize 2D/3D CAD software for civil
+                  engineering, helping professionals design and analyze digital
+                  models. Our flagship tools — Smart Road, Smart Canal, Smart
+                  Water Supply, and Smart Estimator — lead the market in Nepal.
+                </div>
+                <div class="button">
+                  <div class="button2">REQUEST DEMO</div>
+                  <div class="arrow-right">
+                    <img
+                      class="vuesaxoutlinearrow-right-icon"
+                      src="img/arrow-right.svg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 right-image">
+              <div class="portfolio-img">
+                <img src="img/about-us.png" alt="Portfoliio" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="featured-project">
+          <h2 class="featured-title">Featured Projects</h2>
+
+          <div class="projects-grid">
+            <!-- Card 1: Smart Canal -->
+            <div class="project-card">
+              <div class="card-media">
+                <img
+                  src="img/smart-canal-preview.png"
+                  alt="Smart Canal Interface"
+                />
+                <button class="play-btn" aria-label="Play Demo Video">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <h3>Smart Canal</h3>
+                <p>
+                  Comprehensive canal design and analysis software with survey
+                  tools, cross sections, earthwork and hydraulic computations.
+                </p>
+                <div class="card-actions">
+                  <a href="#" class="btn-demo">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <span>LIVE DEMO</span>
+                  </a>
+                  <a href="#" class="btn-live">
+                    <span>LIVE SITE</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Smart Water Supply -->
+            <div class="project-card">
+              <div class="card-media">
+                <img
+                  src="img/smart-water-supply-preview.png"
+                  alt="Smart Water Supply Interface"
+                />
+                <button class="play-btn" aria-label="Play Demo Video">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <h3>Smart Water Supply</h3>
+                <p>
+                  Design, Analyze, and optimize water distribution networks with
+                  intelligent tools for efficient water supply management.
+                </p>
+                <div class="card-actions">
+                  <a href="#" class="btn-demo">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <span>LIVE DEMO</span>
+                  </a>
+                  <a href="#" class="btn-live">
+                    <span>LIVE SITE</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Smart Estimator -->
+            <div class="project-card">
+              <div class="card-media">
+                <img
+                  src="img/smart-estimator-preview.png"
+                  alt="Smart Estimator Interface"
+                />
+                <button class="play-btn" aria-label="Play Demo Video">
+                  <i class="fa-solid fa-play"></i>
+                </button>
+              </div>
+              <div class="card-body">
+                <h3>Smart Estimator</h3>
+                <p>
+                  Accurate project estimation software for BOQ, cost analysis,
+                  rate analysis and resource planning.
+                </p>
+                <div class="card-actions">
+                  <a href="#" class="btn-demo">
+                    <i class="fa-regular fa-circle-play"></i>
+                    <span>LIVE DEMO</span>
+                  </a>
+                  <a href="#" class="btn-live">
+                    <span>LIVE SITE</span>
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Client Section -->
+        <section class="clients-section">
+          <div class="position-relative">
+            <div class="text-center">
+              <h2 class="section-title text-white fw-bold">
+                Our Valued <span class="text-highlight">Clients</span>
+              </h2>
+            </div>
+
+            <div class="row">
+              <!-- Card 1 -->
+              <div class="col-lg-3 col-md-6">
+                <div class="stat-card">
+                  <h3 class="stat-number">385</h3>
+                  <p class="stat-label">Government Local Bodies</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="stat-card">
+                  <h3 class="stat-number">35</h3>
+                  <p class="stat-label">
+                    Engineering Colleges and Universities
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="stat-card">
+                  <h3 class="stat-number">105</h3>
+                  <p class="stat-label">Government Engineering Departments</p>
+                </div>
+              </div>
+
+              <div class="col-lg-3 col-md-6">
+                <div class="stat-card">
+                  <h3 class="stat-number">445</h3>
+                  <p class="stat-label">
+                    Corporates, Projects, NGO's and INGO's
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider-wrapper">
+              <div class="swiper client-logo-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 37.png" alt="UNICEF" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img
+                        src="img/image 33.png"
+                        alt="Nepal Electricity Authority"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img
+                        src="img/image 36.png"
+                        alt="Agricultural Development Bank"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 47.png" alt="UNDP" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 38.png" alt="Government of Nepal" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 37.png" alt="UNICEF" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img
+                        src="img/image 33.png"
+                        alt="Nepal Electricity Authority"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img
+                        src="img/image 36.png"
+                        alt="Agricultural Development Bank"
+                      />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 47.png" alt="UNDP" />
+                    </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="logo-box">
+                      <img src="img/image 38.png" alt="Government of Nepal" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-button-prev custom-nav"></div>
+                <div class="swiper-button-next custom-nav"></div>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-container">
+          <div class="footer-top">
+            <div class="footer-col brand-col">
+              <div class="footer-logo">
+                <img src="img/smart_logo.png" alt="Smart Tech Solution" />
+              </div>
+              <p class="brand-desc">
+                Leading provider of engineering <br />
+                software solutions in Nepal.
+              </p>
+              <div class="social-links">
+                <a href="#" class="social-icon" aria-label="Facebook">
+                  <img src="img/facebook logo.svg" alt="Facebook" />
+                </a>
+                <a href="#" class="social-icon" aria-label="LinkedIn">
+                  <img src="img/linkedin logo.svg" alt="LinkedIn" />
+                </a>
+              </div>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Quick Links</h3>
+              <ul class="footer-links">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/service.html">Services</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                <li><a href="/about-us.html">About Us</a></li>
+                <li><a href="/contact.html">Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Solutions</h3>
+              <ul class="footer-links">
+                <li><a href="#">CAD Software</a></li>
+                <li><a href="#">GIS Application</a></li>
+                <li><a href="#">Enterprise Application</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-col">
+              <h3 class="footer-title">Contact Information</h3>
+              <address class="contact-info">
+                <p>Bhakti Thapa Sadak,<br />Kathmandu, Nepal</p>
+                <p><a href="tel:015245027">01-5245027</a></p>
+                <p>
+                  <a href="mailto:info@smarttech.com.np"
+                    >info@smarttech.com.np</a
+                  >
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div class="footer-bottom">
+            <p>
+              &copy; 2026 Smart Tech Solution Pvt. Ltd. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- JS Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script/portfolioscript.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+@media only screen and (max-width: 1080px) {
+  .homepage-anm .body-section .about-us {
+    padding: 30px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .smart-digital-solutions {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .since {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .about-paragraph {
+    font-size: 14px;
+  }
+
+  .homepage-anm .body-section .about-us .left-text .frame_1 .button {
+    width: 40%;
+  }
+
+  .vmg-section {
+    padding: 30px;
+  }
+
+  .vmg-arc-svg {
+    top: -38px;
+    max-width: 1015px;
+    height: 235px;
+  }
+
+  .vmg-desc {
+    font-size: 14px;
+  }
+  .vmg-title {
+        font-size: 20px;
+  }
+
+  .team-heading {
+    font-size: 38px;
+  }
+  .our-team-section {
+        padding: 30px;
+    }
+}

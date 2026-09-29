@@ -1,0 +1,51 @@
+@media only screen and (max-width: 1080px) {
+  .homepage-anm .body-section {
+    padding: 10px 30px;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .your-vision-our {
+    font-size: 16px !important;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .frame_1 .engineering-your-vision {
+    font-size: 38px;
+  }
+
+  .homepage-anm .body-section .contact-us .left-text .frame_1 .together {
+    font-size: 38px !important;
+  }
+
+  .homepage-anm .body-section .contact-form .contact-header .lets-scale-together-container {
+    font-size: 38px !important;
+  }
+
+  .homepage-anm .body-section .contact-form .contact-info_button {
+    min-width: 215px;
+    padding: 10px 20px
+  }
+
+  .homepage-anm .body-section .contact-form {
+    padding-top: 50px;
+    padding: 40px 0px;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group label {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .conversational-form .form-grid .field-group input {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .conversational-form {
+    padding: 0px;
+    padding-top: 30px;
+  }
+
+  .homepage-anm .body-section .contact-form .reach-out .reach-out-to {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #f1f6fd;
+    margin: 0;
+  }
+}

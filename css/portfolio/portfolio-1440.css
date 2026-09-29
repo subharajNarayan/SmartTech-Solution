@@ -1,0 +1,62 @@
+@media only screen and (max-width: 1440px) {
+  .homepage-anm .body-section .portfolio {
+    padding: 30px 60px;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .cad-software {
+    width: 100%;
+    position: relative;
+    font-size: 46px;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .we-build-and {
+    font-size: 16px;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .frame_1 .button {
+    padding: 11px 20px;
+    margin-top: 30px;
+    width: 32%;
+  }
+
+  .homepage-anm .body-section .portfolio .left-text .frame_1 .button .button2 {
+    letter-spacing: 1px;
+  }
+
+  .featured-project {
+    padding: 60px;
+  }
+
+  .featured-title {
+    font-size: 46px;
+  }
+
+  .featured-title {
+    line-height: 0.9;
+  }
+
+  .projects-grid {
+    margin-top: 0px;
+  }
+
+  .card-body h3 {
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .card-body p {
+    font-size: 16px;
+    line-height: 1.3;
+  }
+
+  .card-actions {
+    margin-top: 20px;
+  }
+
+  .project-card .card-body .card-actions .btn-demo {
+    padding: 10px;
+    letter-spacing: 1px;
+    line-height: 1;
+    font-weight: 500;
+}
+}
