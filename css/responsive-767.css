@@ -372,6 +372,7 @@
 
   .banner-section {
     padding: 35px 10px;
+    justify-content: center;
   }
 
   .stat-box {
@@ -380,7 +381,7 @@
 
   .banner-container .icon-circle {
     width: 45px;
-    height: 32px;
+    height: 40px;
   }
 
   .icon-circle i {
@@ -1015,4 +1016,11 @@
   .image-col {
     margin-top: 32px;
   }
+
+  .wwb-image-container img {
+    width: 100%;
+  }
+  .card-overlay {
+    background: linear-gradient(180deg, rgba(3, 5, 10, 0.4) 76%, rgba(3, 5, 10, 0.75) 100%);
+}
 }

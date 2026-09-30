@@ -340,12 +340,12 @@
   }
 
   .banner-container .icon-circle {
-    width: 60px;
+    width: 90px;
     height: 46px;
   }
 
   .banner-container .location .icon-circle {
-    width: 46px;
+    width: 65px;
     height: 46px;
   }
 
@@ -748,4 +748,10 @@
     font-size: 2.2rem;
   }
 } */
+ .banner-container .stat-text p br{
+  display: none;
+ }
+ .banner-container .stat-text br{
+  display:none;
+ }
 }

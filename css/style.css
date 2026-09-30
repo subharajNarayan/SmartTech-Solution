@@ -158,11 +158,11 @@ html, body {
 .homepage-anm .body-section .top-banner .banner_frame .banner_frame-2 .text-wrapper-1 {
   position: relative;
   align-self: stretch;
-  margin-top: -1px;
-  font-family: "Poppins-Bold", Helvetica;
+  /* margin-top: -1px;
+  font-family: "Poppins-Bold", Helvetica; */
   font-weight: 700;
   color: #ffffff;
-  font-size: 80px;
+  font-size: 64px;
   letter-spacing: 0;
   line-height: 104px;
 }
@@ -174,11 +174,11 @@ html, body {
 }
 
 .homepage-anm .body-section .top-banner .banner_frame .banner_frame-2 .text-wrapper-2 {
-  position: relative;
-  font-family: "Poppins-Bold", Helvetica;
+  /* position: relative;
+  font-family: "Poppins-Bold", Helvetica; */
   font-weight: 700;
   color: var(--brand-500);
-  font-size: 80px;
+  font-size: 64px;
   letter-spacing: 0;
   line-height: 104px;
 }
@@ -239,15 +239,15 @@ html, body {
 }
 
 .homepage-anm .body-section .top-banner .banner_frame .banner_frame-3 .inner_banner_frame-4 .button .button-1 {
-  position: relative;
+  /* position: relative;
   width: fit-content;
   font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
+  font-weight: 500; */
   color: #ffffff;
-  font-size: 14px;
-  letter-spacing: 2px;
+  /* font-size: 14px; */
+  /* letter-spacing: 2px;
   line-height: 14px;
-  white-space: nowrap;
+  white-space: nowrap; */
 }
 
 .homepage-anm .body-section .top-banner .banner_frame .banner_frame-3 .inner_banner_frame-4 button .arrow-right {
@@ -273,15 +273,15 @@ html, body {
 }
 
 .homepage-anm .body-section .top-banner .banner_frame .banner_frame-3 .inner_banner_frame-4 button.button-wrapper .button-2 {
-  position: relative;
+  /* position: relative;
   width: fit-content;
   font-family: "Poppins-Medium", Helvetica;
-  font-weight: 500;
+  font-weight: 500; */
   color: var(--light-theme-base-white);
-  font-size: 14px;
+  /* font-size: 14px;
   letter-spacing: 2px;
   line-height: 14px;
-  white-space: nowrap;
+  white-space: nowrap; */
 }
 
 .video {
@@ -462,7 +462,7 @@ html, body {
 
 .icon-circle i {
   color: #ffffff;
-  font-size: 50px;
+  font-size: 42px;
 }
 
 .homepage-anm .body-section .solutions-section .solutions-container .solution-card .card-content {
@@ -1293,7 +1293,7 @@ html, body {
   justify-content: center;
   font-size: 18px;
   color: #ffffff;
-  width: 90px;
+  width: 94px;
   height: 90px;
 }
 
@@ -1446,7 +1446,7 @@ html, body {
 }
 
 .wwb-subtitle {
-  color: #94a3b8;
+  color: #fff;
   font-size: 24px;
   font-weight: 400;
   margin: 0;
@@ -1462,7 +1462,7 @@ html, body {
 .wwb-counter {
   font-size: 16px;
   font-weight: 500;
-  color: #94a3b8;
+  color: #fff;
 }
 
 .wwb-nav-btns {
@@ -1563,7 +1563,7 @@ html, body {
 .wwb-slide-desc {
   font-size: 24px;
   line-height: 1.7;
-  color: #a0aec0;
+  color: #fff;
   margin: 0;
   font-weight: 400;
 }
@@ -2432,7 +2432,7 @@ html, body {
   color: #FFF;
   margin-bottom: 32px;
   font-size: 24px;
-  line-height: 1.24;
+  line-height: 1.4;
 }
 
 .btn-learn-more {
